@@ -1,0 +1,65 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    width: 100%;
+    height: 60px;
+    box-shadow: 2px 2px 2px 2px grey;
+    display: flex;
+    justify-content: space-between;
+}
+
+body {
+    font-family: Monserrat, 
+}
+
+#burguer {
+    font-size: 30px;
+    padding: 5px 20px;
+
+}
+
+#burguer:hover {
+    font-size: 32px;
+    padding: 5px 20px;
+    color: rgb(76,133,129);
+    cursor: pointer;
+}
+
+.logo {
+    font-size: 28px;
+    padding: 10px 20px;
+}
+
+ul {
+    width: 300px;
+    height: 90vh;
+    background-color: lightseagreen;
+    list-style: none;
+    box-shadow: 2px 2px 2px 2px grey;
+}
+ul .just {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+} 
+ul p {
+    padding: 15px;
+    font-size: 18px;
+    color: white;
+}
+ul li {
+    padding: 15px;
+    font-size: 20px; 
+}
+
+ul li:hover {
+    background-color: rbg(85, 219, 210);
+}
+ul li a {
+    color: white;
+    text-decoration: none;
+}

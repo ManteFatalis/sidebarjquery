@@ -1,0 +1,41 @@
+<!-- Jquery es una libreria de JavaScript -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>JQuery</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleaplis.com/css?family=Montserrat">
+</head>
+<body>
+
+    <header>
+        <p id='burguer'>&#9776;</p>
+        <p class="logo">tuMenuLateral.com</p>
+    </header>
+    <ul id='menu'>
+        <div class="just">
+            <div>
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Proovedores</a></li>
+        <li><a href="#">Presupuestos</a></li>
+        <li><a href="#">Facturas</a></li>
+        <li><a href="#">Soporte</a></li>
+        </div>
+        <p>&copy; 2.017 ACME</p>
+        </div>
+    </ul>
+
+        <script>
+        $(document).ready(function(){
+            $('#burguer').click(function(){
+                $('#menu').animate({height:'toggle'},500);
+            })
+        })
+        </script>
+</body>
+</html>
